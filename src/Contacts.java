@@ -19,9 +19,9 @@ abstract public class Contacts {
                 "name='" + name + '\'' +
                 '}';
     }
-    public void contact(){
+    abstract public void contact();
 
-    }
+    
 }
 class Email extends Contacts{
     private String email;
